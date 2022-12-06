@@ -47,8 +47,9 @@ body {
 
 .container {
   width: 90%;
-  max-width: 350px;
+  min-width: 350px;
   margin: 0 auto;
+
   background: #ffffff;
   border-radius: 13px;
   box-shadow: 2px 2px 50px rgb(0, 0, 0, .4);
@@ -71,7 +72,7 @@ body {
 }
 
 .user__details {
-  padding: 3rem 5rem;
+  padding: 3rem 6rem;
   padding-bottom: 2.3rem;
 }
 
@@ -112,7 +113,7 @@ body {
 }
 
 .city {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--clr-dark-gr-blue);
   margin-top: 1rem;
   cursor: pointer;
